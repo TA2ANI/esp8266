@@ -3,11 +3,11 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[] = "YourAuthToken";
+char auth[] = "................."; //Kendi Tokeniniz
 
 
-char ssid[] = "YourNetworkName";
-char pass[] = "YourPassword";
+char ssid[] = "................";  // Kablosuz ağ adı
+char pass[] = "----------------";  // Kablosuz ağ şifresi
 
 void setup()
 {
